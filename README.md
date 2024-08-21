@@ -4,14 +4,16 @@ In order to use this script you need to install a few libraries. Additionally, t
 
 ### Required Packages 
 
-Ax
-matplotlib
-pandas
-numpy 
+* Ax
+* Matplotlib
+* pandas
+* NumPy 
 
 
 ### Recommended Install (conda)
 
-conda create -n <env-name> python=3.11
-conda install matplotlib pandas numpy pytorch torchvision -c pytorch
-pip install ax-client
+To easily install the required packages and set up the environment needed to run this script, run the following lines of code (in order)
+
+1. conda create -n <env-name> python=3.11
+2. conda install matplotlib pandas numpy pytorch torchvision -c pytorch
+3. pip install ax-client
