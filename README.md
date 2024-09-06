@@ -43,14 +43,12 @@ To easily install the required packages and set up the environment needed to run
 5. Click the “Commit” button
 6. Click the “Sync Changes” button
 7. Click ok if there is a popup (usually says something like “This action will pull and push commits from and to “origin/main”). If there is no popup ignore this step.
-8. Open up Github Desktop
-9. Click the “Push Origin” button
-10. Click “View on GitHub”
-11. Navigate to your GitHub repository page (this is not the page everyone shares but your personal copy). This is found in the left bar menu under “repositories”.
-12. Click “Contribute”
-13. Click “Open Pull Request”
-14. You can either write a description or not, up to you.
-15. Click “Create Pull Request”
-16. Text Stanley to approve the pull request (needs to be done by the time another group tests)
+8. Navigate to your GitHub repository page (this is not the page everyone shares but your personal copy). This is found in the left bar menu under “repositories”.
+9. Click “Contribute”
+10. Click “Open Pull Request”
+11. You can either write a description or not, up to you.
+12. Click “Create Pull Request”
+13. Click "Merge Pull Request"
+14. Click "Confirm merge"
 
 
