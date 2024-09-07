@@ -1,0 +1,9 @@
+1. Grab circuit from cabinet left of main ChemE Car cabinet, should be in the very top.
+2. Plug circuit into computers USB port, check which COM port this is in the arduino IDE and change port = 'COM3' if necessary.
+3. Start collecting data and connect alligator clips to the battery, black negative to the zinc plate and red positive to the graphite rod. NOTE the moment the clips are connected, power from the battery will be drawn so make sure code is running before that.
+4. Collect at least 120 seconds of data, any more will be ignored in the analysis and any less will invalidate the run.
+5. Stop/Interrupt the cell to stop data collection and save the data.
+6. Rename the data with all the parameters in the title. If you don't rename the data and rerun the cell it will overwrite the file.
+7. Load the renamed file into the second cell's variable "csv_file", and run the code.
+8. The total energy output over 2 minutes is obtained by integrating the power over time, this is the objective value to add on the ObservedData csv.
+9. When done put circuit back where you grabbed it.
